@@ -1,0 +1,52 @@
+.sidebox {
+  width: 300px; /* Adjust width as needed */
+  height: 700px; /* Match height of chatbox or adjust as needed */
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  margin-left: 20px; /* Space between chatbox and sidebox */
+}
+
+.sidebox-header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 15px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.sidebox-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 15px;
+  background-color: #f1f1f1;
+}
+
+.scrolling-frame {
+  max-height: calc(100% - 60px); /* Adjust based on header and footer height */
+  overflow-y: auto;
+}
+
+.sidebox-footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  background-color: #fff;
+  border-top: 1px solid #ddd;
+}
+
+.sidebox-footer button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.sidebox-footer button:hover {
+  background-color: #0056b3;
+}
