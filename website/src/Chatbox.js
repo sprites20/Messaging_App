@@ -414,7 +414,7 @@ const MessageFooter = React.memo(({ newMessage, setNewMessage, handleKeyDown, ha
 }
 
 return (
-  <GoogleOAuthProvider clientId="835513582400-psmofpoa40g765kbbc4chm1dvnmefh81.apps.googleusercontent.com">
+  <GoogleOAuthProvider clientId="">
     <div className="chatbox">
       {/* Header */}
       <div className="chatbox-header">
