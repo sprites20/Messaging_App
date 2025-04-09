@@ -4936,7 +4936,7 @@ class LoraTrainerScreen(Screen):
         super(LoraTrainerScreen, self).__init__(**kwargs)
         
         # Your Hugging Face token
-        HF_TOKEN = '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'  # Replace with your actual Hugging Face token
+        HF_TOKEN = ''  # Replace with your actual Hugging Face token
         try:
         # Authenticate with Hugging Face
             login(token=HF_TOKEN)
